@@ -1,10 +1,10 @@
+
 a = [1, 5, 8]
 b = [2, 6, 9, 10]
 c = [100, 200]
 
 #print(max([len(a), len(b), len(c)]))
 #print(min([len(a), len(b), len(c)]))
-
 names = ["Carol", "Albert", "Ben", "Donna"]
 #print(" & ".join(sorted(names)))
 #print(names[-1])
@@ -23,3 +23,13 @@ for word in book_title:
     else:
         word_counter[word] += 1
 print(word_counter)
+
+print(bool("abc"))
+print(bool(123))
+print(bool(''))
+print(bool([]))
+x = 0
+print(bool(x))
+
+x = 200
+print(isinstance(x, int)) 
