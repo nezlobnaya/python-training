@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/Users/vladislavburlutskiy/Documents/Lambda/python-training/venv/bin/python3"
+    "python.pythonPath": "/Users/vladislavburlutskiy/Documents/Lambda/python-training/venv/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
