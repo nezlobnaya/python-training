@@ -65,17 +65,33 @@ def print_spam(string):
 do_twice(print_spam, "spam")
 do_four(print_spam, 'petro')
 
-def check_fermat(a,b,c,n):
-    if n > 2 and a**n + b**n == c**n :
-        print("Holy smokes, Fermat was wrong!")
-    else:
-        print("No, that doesn't work.")
+# def check_fermat(a,b,c,n):
+#     if n > 2 and a**n + b**n == c**n :
+#         print("Holy smokes, Fermat was wrong!")
+#     else:
+#         print("No, that doesn't work.")
 
-def check_numbers():
-    a = int(input("Choose a number for a: "))
-    b = int(input("Choose a number for b: "))
-    c = int(input("Choose a number for c: "))
-    n = int(input("Choose a number for n: "))
-    return check_fermat(a,b,c,n)
+# def check_numbers():
+#     a = int(input("Choose a number for a: "))
+#     b = int(input("Choose a number for b: "))
+#     c = int(input("Choose a number for c: "))
+#     n = int(input("Choose a number for n: "))
+#     return check_fermat(a,b,c,n)
 
-check_numbers()
+# check_numbers()
+
+sample_tuple = tuple('Vladislav')
+print(sample_tuple)
+dir(sample_tuple)
+
+name = "Vlad"
+print(f"Hello {name}")
+print("Hello {}".format(name))
+
+p = [10, 20, 60, 5, "Banana"]
+for (i, el) in enumerate(p):
+    print(f"Element at {i} is {p[i]} == {el}")
+
+numbers = [1, 3, 5, 6, 7]
+cooler_squares = [num**2 for num in numbers]
+print(cooler_squares)
