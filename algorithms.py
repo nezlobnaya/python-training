@@ -11,7 +11,7 @@ def binary_search(list, item):
         # ... check the middle element
         mid = (low + high) // 2
         guess = list[mid]
-        print(list[mid])
+        print(mid)
         if guess == item:
             return mid
         if guess > item:
