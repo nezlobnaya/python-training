@@ -46,6 +46,7 @@ choice = -1
 # REPL <- Read Evaluate Print Loop
 print(sports_store)
 print("type q to quit")
+
 while True:
     # Read 
     choice = input("Please choose a category (#): ")
